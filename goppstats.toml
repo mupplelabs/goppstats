@@ -31,6 +31,9 @@ stat_processor_args = []
 # present excessive load in internal testing, so set that here.
 min_update_interval_override = 5
 
+# normalize cluster names to lowercase, defaults to true.
+normalize = false
+
 # clusters in this section are queried for all stat groups
 # clusters: [username1:password1@]<ip-or-host-address1>[:True|False]
 #	[[username2:password2]@<ip-or-host-address2>[:True|False]]
